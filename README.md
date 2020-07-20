@@ -14,6 +14,6 @@ There are many people in the world that are living with a disability. That disab
 # The Finished Product
 When the website is completed, it should look like this:
 
-![Refactor Website](https//plrobbins.github.com/images/hwwebsite.png)
+![Refactor Website](https://github.com/plrobbins/coderefactor.homework/blob/master/Images/HWWebsite.png)
 
 Here is also the link to the refactored [Horiseon](https://plrobbins.github.io/coderefactor.homework/) website.
