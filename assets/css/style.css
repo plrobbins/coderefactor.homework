@@ -3,50 +3,48 @@
     padding: 00;
     margin: 0;
 }
-
+/*This adds the background color to the entire page.*/
 body {
     background-color: #d9dcd6;
 }
-
+/*This will add the background color and font to the hearder class.*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*This will display the element as as inline block element*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-
+/* This element will display the menu item at the top*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .header div ul {
     list-style-type: none;
 }
-
+/*This element displays the list items under the unordered list.*/ 
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
-}
-
-a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*This sets the font size for all paragraghs*/
 p {
-    font-size: 20px;
+    font-size: 24px;
 }
-
+/*This div tag is used for the main background image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -55,12 +53,12 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*This element will display all of the with the class of float-left.*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*This element will display all of the with the class of float-right.*/
 .float-right {
     float: right;
     margin-left: 25px;
@@ -71,7 +69,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/*This class will display the aside class*/
 aside {
     display: block;
     margin-right: 20px;
@@ -84,25 +82,25 @@ aside {
     background-color: #0072bb;
 }
 
-/*Add comments*/
+/*This will display the class setting for the three classes since they are the same*/
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 10px;
     color: #ffffff;
 }
 
-
+/*This will display the class setting for the three classes since they are the same*/
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3  {
     text-align: center;
     margin-bottom: 10px;
 }
-
+/*This will display the class setting for the three classes since they are the same*/
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: auto auto auto auto;
     max-width: 150px;
 }
 
-
+/*This will display the class setting for the three classes since they are the same*/
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,24 +109,23 @@ aside {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*This will display the class setting for the three classes since they are the same*/
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
-
+/*This will display the class setting for the three classes since they are the same*/
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-
+/*The footer class will display the footer settings. Added the font-size to this class.*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    font-size: 24px;
 }
 
-.footer h2 {
-    font-size: 20px;
-}
+
